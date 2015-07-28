@@ -1,0 +1,19 @@
+{
+    "name": "iscctu/isc-login-client",
+    "description": "Authentication client for ISC Login server",
+    "require": {
+        "php": ">=5.3.0",
+        "nette/http": "~2.3"
+    },
+    "authors": [
+        {
+            "name": "Keeehi",
+            "email": "honzacejhon@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "IscCtu\\": "src/"
+        }
+    }
+}
